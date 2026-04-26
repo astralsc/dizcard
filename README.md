@@ -21,4 +21,4 @@ This server is not ready for production because I am still trying to get some fe
 2. Put all the repository files in the **www** folder.
 3. Run `npm install ws https fs` inside the **wss-server** folder.
 4. Run `openssl req -x509 -newkey rsa:2048 -nodes -keyout key.pem -out cert.pem -days 365` inside the **wss-server** folder.
-5. Run `node .` inside the **wss-server** folder. 
+5. Run `node .` inside the **wss-server** folder.
