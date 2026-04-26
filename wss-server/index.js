@@ -12,8 +12,6 @@ const wss = new WebSocketServer({ server });
 wss.on("connection", (ws) => {
   console.log("Client connected!");
 
-  ws.send("Secure connection established!");
-
   ws.on("message", (msg) => {
     console.log("Received:", msg.toString());
   });
