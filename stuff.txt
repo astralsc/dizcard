@@ -203,7 +203,7 @@ Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel
 Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
 alt-svc: h3=":443"; ma=86400
 
-{"url":"wss://discordapp.com"}
+{"url":"wss://localhost:8081"}
 
 
 
