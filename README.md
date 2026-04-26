@@ -2,7 +2,7 @@
 
 A Dizcard private server written in PHP     
 
-This server is not ready for production because it is incomplete.
+This server is not ready for production because it is unfinished.
 
 ## Requirements
 
