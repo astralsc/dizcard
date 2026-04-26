@@ -1,0 +1,213 @@
+-- Login --
+Too many requests:
+HTTP/1.1 429 Too Many Requests
+Date: Sat, 25 Apr 2026 05:34:47 GMT
+Content-Type: text/plain; charset=UTF-8
+Content-Length: 16
+Connection: keep-alive
+Retry-After: 232
+Cache-Control: private, max-age=0, no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Referrer-Policy: same-origin
+X-Frame-Options: SAMEORIGIN
+set-cookie: __cf_bm=XIPa7Ar_mWdRekkWzZDwZ2AeOY6UwiQX9sBXWuXwyno-1777095287.6642811-1.0.1.1-rRT7XCIwzt58V9p8zFYap.b0g3TawDkJyPEu.0ZB0xUc8oz5IUr8mGUXVLCEkEBVitL7eCIehJfLP400rYHZZ5Ez4AzJRsOCXHyybxOxcV4Ep3CWvKGSAjJgxAbPBagl; HttpOnly; Secure; Path=/; Domain=discordapp.com; Expires=Sat, 25 Apr 2026 06:04:47 GMT
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=P37kI4044s54UZ5dHD63HjWq%2FApDADF5DqG5popglIzuS3tfYSxqsD6umHoiyB5ctZm%2BZQN%2BgXO2vrXaoy%2Bwj0BLmbC7eiitkGqmtosMLX823fYiVCT0lJBKapaQFn4X"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+Server: cloudflare
+CF-RAY: 9f1afb0bed9dd132-PER
+
+Success:
+HTTP/1.1 200 OK
+Date: Sat, 25 Apr 2026 06:19:13 GMT
+Server: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.7
+X-Powered-By: PHP/7.2.7
+Content-Length: 98
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json
+
+{"token":"MTQ5NzQ3MzM5NzYxMTgyODM0MA.adiWtw.cS3-fL1367ZCDZt5i_FoTU65N3TT46zgXpjm-g","settings":{}}
+
+
+
+
+-- Register --
+Rate limit:
+HTTP/1.1 429 Too Many Requests
+Date: Sat, 25 Apr 2026 05:26:05 GMT
+Content-Type: application/json
+Content-Length: 86
+Connection: keep-alive
+Set-Cookie: __dcfduid=41e3dc04406711f19fffe9d2f3bc1aa1; Expires=Thu, 24-Apr-2031 05:26:05 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+Set-Cookie: __sdcfduid=41e3dc04406711f19fffe9d2f3bc1aa12db5fe243aac47f058397c0d239472f76a8d9eaf37a0f20741616d2f1c6a2723; Expires=Thu, 24-Apr-2031 05:26:05 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+set-cookie: __cf_bm=ioVZ7c5cWjPLJovK8PIDHJnxcGSWYsm37NbiJqZoJL8-1777094765.4715834-1.0.1.1-OsBm.L9SQcZL6adJnj9uXX0P0uOk9beWY5zSDUp4x80RVx3x79UKZ5KkSmqN4zSqDNrlpdqjDBFA4.m2reDZISCia8fo4NdYuZVnBwX6gnHgi4J5FrBRaOK0jT5UnBkX; HttpOnly; Secure; Path=/; Domain=discordapp.com; Expires=Sat, 25 Apr 2026 05:56:05 GMT
+set-cookie: _cfuvid=cgUrM62p1VS_Lar9bZCFyWeiUf21gqMtVlI5eCBPb0o-1777094765.4715834-1.0.1.1-2Ff_DUTEs1Sdr8BcMkVX3KKZOevGS4BIYI1VKMBl7E8; HttpOnly; SameSite=None; Secure; Path=/; Domain=discordapp.com
+CF-Ray: 9f1aee4c39ce863f-PER
+CF-Cache-Status: DYNAMIC
+Retry-After: 119987
+Server: cloudflare
+x-ratelimit-scope: shared
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 google
+x-discord-features: sign-up
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=GML5KInbWPKfoS5ub6NdyK5ss3NV%2FlrRiybvCHUs2GmXykZBGJsmvLiUDqWorQKjEM1dN1pdNpxiyHa%2B6FFeIQH2vXYREv%2Bg%2FwqDF0nxvPMHww6tDj2BWxRmcSCacs62"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+
+{"message":"The resource is being rate limited.","retry_after":119987,"global":false}
+
+Required field:
+HTTP/1.1 400 Bad Request
+Date: Sat, 25 Apr 2026 05:26:05 GMT
+Content-Type: application/json
+Content-Length: 45
+Connection: keep-alive
+Set-Cookie: __dcfduid=41e32dfe406711f1ba82919099a1cda9; Expires=Thu, 24-Apr-2031 05:26:05 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+Set-Cookie: __sdcfduid=41e32dfe406711f1ba82919099a1cda9f47d3f3b6319dfd18beeff4ab23079d3ee0b5227f0a5b4dae69340cef145e000; Expires=Thu, 24-Apr-2031 05:26:05 GMT; Max-Age=157680000; Secure; HttpOnly; Path=/; SameSite=Lax
+set-cookie: __cf_bm=hdEh3D7oMnNt8CEo2WvFhczh11wSyo9dS5Hq.zeFgJg-1777094765.4774-1.0.1.1-Pu4e4Q2elvsS.6z5yAPKbjAr.8D3lxl4A59hNOw.oMRevwj3c1AXETa9e5tFMwRgoBqsf.OMq6YG5yWjMVGvQVcLeZ1knYT7EA3kWgNYUABHLYNOZOSyCu10T8ubHoYh; HttpOnly; Secure; Path=/; Domain=discordapp.com; Expires=Sat, 25 Apr 2026 05:56:05 GMT
+set-cookie: _cfuvid=UAV1fQPJALRvo02IB4W5YYDa4W49JOlun2WCr690pi4-1777094765.4774-1.0.1.1-EMG9yfL4FbzRxNKo8nz3WsRLw1MXAMmp8CSEk4E5_MI; HttpOnly; SameSite=None; Secure; Path=/; Domain=discordapp.com
+CF-Ray: 9f1aee4c3ee4864f-PER
+CF-Cache-Status: DYNAMIC
+Server: cloudflare
+x-discord-features: sign-up
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Via: 1.1 google
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=hVJGNiREy0m%2B0t%2FwrTYQkhTbWHrqt1rK4sQj6ZKc5emK2rvU4MZtg0Pfamw2VZVjMythYfXX6jqwWnGdBfR7p%2F7wZ4aNCLoroU4TiQ0eJrBMovk4vLod8Nv7J7JOhxGG"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+
+{"date_of_birth": ["This field is required"]}
+
+Success:
+HTTP/1.1 200 OK
+Date: Sat, 25 Apr 2026 06:17:27 GMT
+Server: Apache/2.4.18 (Win32) OpenSSL/1.0.2f PHP/7.2.7
+X-Powered-By: PHP/7.2.7
+Content-Length: 84
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: application/json
+
+{"token":"MTQ5NzQ4MTI4NTk2NTE5MDI4Mw.adieEA.-yW86G4PN-tbkjGKceefIVL1QA7OiBHdVqgL8Q"}
+
+
+
+-- Messages.php --
+Unknown channel:
+HTTP/1.1 404 Not Found
+Date: Sat, 25 Apr 2026 06:31:27 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 42
+Connection: keep-alive
+CF-Ray: 9f1b4e0adfb287bb-PER
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Origin: *
+ETag: W/"2a-0+n2P+7HWrJxcWAlz2tDip9NSdI"
+Server: cloudflare
+Set-Cookie: release_date=thirdPartyOrMobile; Path=/
+access-control-allow-credentials: true
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 5
+x-powered-by: Express
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=5,cfOrigin;dur=0,cfWorker;dur=121
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=csfW4qd2dG%2BUYN8aa5MmCI6eHK63AxcZdlGTbGmUXaM7Xx4AWItwV35lMp55TCK5oInsCkjm7RJRs9Xo%2BdTxupkunE0m0KGvQgDLD%2B%2F8NhpbtwWaa2FwDmgBIutS%2BeNZi41e6l9p7jLK"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
+{"code":10003,"message":"Unknown Channel"} 
+
+
+
+
+-- users/@me --
+Required field:
+HTTP/1.1 400 Bad Request
+Date: Sat, 25 Apr 2026 06:28:41 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 48
+Connection: keep-alive
+CF-Ray: 9f1b49fe7c7587bb-PER
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Origin: *
+ETag: W/"30-GzU/WXmIoQsofYt8zV66+3i9hqM"
+Server: cloudflare
+Set-Cookie: release_date=thirdPartyOrMobile; Path=/
+access-control-allow-credentials: true
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 5
+x-powered-by: Express
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 99
+x-ratelimit-reset: 1777102122
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=8,cfOrigin;dur=0,cfWorker;dur=138
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=I11onuzbx6ZCmQ%2Fuhc%2Bmy1VcpadrwqHJoAa9u%2Bdyp1vqnKP4vRMiPdmliWvm9neJTA00mR7MBnefHdSuJNK1WSYq1k5ktTk%2BymDSjSQ08Z6mxfDAUB%2Fm3NBZOzH3UCz9O2jhtyq0%2B%2Bg2"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
+{"code":400,"password":"This field is required"}
+
+Success:
+HTTP/1.1 200 OK
+Date: Sat, 25 Apr 2026 06:28:56 GMT
+Content-Type: application/json; charset=utf-8
+Connection: keep-alive
+CF-Ray: 9f1b4a5e6b3c87bb-PER
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Origin: *
+ETag: W/"10a-TqTmNJHWqzypRCtH1HtAQBYIpYA"
+Server: cloudflare
+Set-Cookie: release_date=thirdPartyOrMobile; Path=/
+access-control-allow-credentials: true
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 5
+x-powered-by: Express
+x-ratelimit-limit: 100
+x-ratelimit-remaining: 98
+x-ratelimit-reset: 1777102122
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=4,cfOrigin;dur=0,cfWorker;dur=255
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=RQ5N2xkQCuQB9r%2F8S6FNXqzAszAA5%2BJXL8YArlZ6Vjq0Ll%2BLps%2B9%2BV%2BQoxY75CY%2BdoldLfkuPtyjuo8HcETDLtcpkGTy%2B2W%2B46ryLpYV8yNiOIhzWROdgstyCRtVCBcFo77QZwEEXOjH"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+Content-Length: 266
+
+{"avatar":null,"discriminator":"0000","email":"astral@discordapp.com","flags":0,"id":"1497473397611828340","token":"MTQ5NzQ3MzM5NzYxMTgyODM0MA.adihGA.0PgAXJb2VQ3KDf3CfuE168IHvkXINBWi0QIbvQ","username":"Astral","verified":true,"mfa_enabled":false,"claimed":true}
+
+
+
+
+-- Gateway --
+Success:
+HTTP/1.1 200 OK
+Date: Sat, 25 Apr 2026 06:22:41 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 38
+Connection: keep-alive
+CF-Ray: 9f1b4135bf9387bb-PER
+CF-Cache-Status: DYNAMIC
+Access-Control-Allow-Origin: *
+ETag: W/"26-w/CtJN8vzHKe9kuqALH0oe0SX1w"
+Server: cloudflare
+Set-Cookie: release_date=thirdPartyOrMobile; Path=/
+access-control-allow-credentials: true
+access-control-allow-headers: *
+access-control-allow-methods: *
+access-control-max-age: 5
+x-powered-by: Express
+Server-Timing: cfCacheStatus;desc="DYNAMIC"
+Server-Timing: cfEdge;dur=9,cfOrigin;dur=0,cfWorker;dur=276
+Report-To: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=PHZC7NkqF1sS1pKKc6NkLeoVW6%2FxXZCD%2FLQ0nU7VrcjAwqIkgkRCKO1ER%2B0A7iCraA36yfaJ0xLG6CN4qQsQjWse9TBGtQTH%2Fx3VdTuWUfhLSFmpcSizQyTLgpsSGSqdLAoyXtZkQymr"}]}
+Nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+alt-svc: h3=":443"; ma=86400
+
+{"url":"wss://localhost:8081"}
+
+
+
+
+-- Logout --
+Rate limit:
+{"code":31001,"message":"You are being rate limited","retry_after":2359461,"global":true}
