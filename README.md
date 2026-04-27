@@ -12,7 +12,7 @@ This server is not ready for production because it is unfinished.
 ## Supported years
 
 ```
-2026
+2022, 2023, 2026
 ```
 
 ## Setup     
