@@ -21,8 +21,8 @@ $errors = [];
 
 if (empty($username)) {
     $errors['username'][] = 'Username is required.';
-} elseif (strlen($username) < 3 || strlen($username) > 32) {
-    $errors['username'][] = 'Username must be between 3 and 32 characters.';
+} elseif (strlen($username) < 2 || strlen($username) > 32) {
+    $errors['username'][] = 'Username must be between 2 and 32 characters.';
 }
 
 if (empty($email)) {
@@ -33,8 +33,8 @@ if (empty($email)) {
 
 if (empty($password)) {
     $errors['password'][] = 'Password is required.';
-} elseif (strlen($password) < 8) {
-    $errors['password'][] = 'Password must be at least 8 characters.';
+} elseif (strlen($password) < 6 || strlen($password) > 72) {
+    $errors['password'][] = 'Passwordmust be between 6 and 72 characters.';
 }
 
 if (!empty($errors)) {
