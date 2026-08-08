@@ -3,6 +3,7 @@
   "dependencies": {
     "fs": "^0.0.1-security",
     "https": "^1.0.0",
+    "image-size": "^2.0.2",
     "mysql2": "^3.23.2",
     "ws": "^8.21.3"
   }

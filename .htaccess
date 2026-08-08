@@ -10,10 +10,31 @@ RewriteRule ^api/channels/([0-9]+)/messages$ /api/channels/0/messages.php [L,QSA
 RewriteRule ^api/v6/channels/([0-9]+)/messages$ /api/v6/channels/0/messages.php [L,QSA]
 RewriteRule ^api/v8/channels/([0-9]+)/messages$ /api/v8/channels/0/messages.php [L,QSA]
 RewriteRule ^api/v9/channels/([0-9]+)/messages$ /api/v9/channels/0/messages.php [L,QSA]
+
 RewriteRule ^api/channels/([0-9]+)/typing$ /api/channels/0/typing.php [L,QSA]
 RewriteRule ^api/v6/channels/([0-9]+)/typing$ /api/v6/channels/0/typing.php [L,QSA]
 RewriteRule ^api/v8/channels/([0-9]+)/typing$ /api/v8/channels/0/typing.php [L,QSA]
 RewriteRule ^api/v9/channels/([0-9]+)/typing$ /api/v9/channels/0/typing.php [L,QSA]
+
+RewriteRule ^api/channels/([0-9]+)/pins$ /api/channels/0/pins.php [L,QSA]
+RewriteRule ^api/v6/channels/([0-9]+)/pins$ /api/v6/channels/0/pins.php [L,QSA]
+RewriteRule ^api/v8/channels/([0-9]+)/pins$ /api/v8/channels/0/pins.php [L,QSA]
+RewriteRule ^api/v9/channels/([0-9]+)/pins$ /api/v9/channels/0/pins.php [L,QSA]
+
+RewriteRule ^api/channels/([0-9]+)/recipients/([0-9]+)$ /api/channels/0/recipients/index.php [L,QSA]
+RewriteRule ^api/v6/channels/([0-9]+)/recipients/([0-9]+)$ /api/v6/channels/0/recipients/index.php [L,QSA]
+RewriteRule ^api/v8/channels/([0-9]+)/recipients/([0-9]+)$ /api/v8/channels/0/recipients/index.php [L,QSA]
+RewriteRule ^api/v9/channels/([0-9]+)/recipients/([0-9]+)$ /api/v9/channels/0/recipients/index.php [L,QSA]
+
+RewriteRule ^api/users/([0-9]+)/channels$ /api/users/0/channels.php [L,QSA]
+RewriteRule ^api/v6/users/([0-9]+)/channels$ /api/v6/users/0/channels.php [L,QSA]
+RewriteRule ^api/v8/users/([0-9]+)/channels$ /api/v8/users/0/channels.php [L,QSA]
+RewriteRule ^api/v9/users/([0-9]+)/channels$ /api/v9/users/0/channels.php [L,QSA]
+
+RewriteRule ^api/guilds/([^/]+)/?$ /api/guilds_folder/$1.php [L]
+RewriteRule ^api/v6/guilds/([^/]+)/?$ /api/v6/guilds_folder/$1.php [L]
+RewriteRule ^api/v8/guilds/([^/]+)/?$ /api/v8/guilds_folder/$1.php [L]
+RewriteRule ^api/v9/guilds/([^/]+)/?$ /api/v9/guilds_folder/$1.php [L]
 ########
 
 RewriteCond %{REQUEST_FILENAME} !-f
