@@ -1,6 +1,21 @@
 RewriteEngine On
 
+######## Redirection
+RewriteRule ^api/users/@me/relationships/([0-9]+)$ /api/users/@me/relationships_folder/index.php [L,QSA]
+RewriteRule ^api/v6/users/@me/relationships/([0-9]+)$ /api/v6/users/@me/relationships_folder/index.php [L,QSA]
+RewriteRule ^api/v8/users/@me/relationships/([0-9]+)$ /api/v8/users/@me/relationships_folder/index.php [L,QSA]
+RewriteRule ^api/v9/users/@me/relationships/([0-9]+)$ /api/v9/users/@me/relationships_folder/index.php [L,QSA]
+
+RewriteRule ^api/channels/([0-9]+)/messages$ /api/channels/0/messages.php [L,QSA]
+RewriteRule ^api/v6/channels/([0-9]+)/messages$ /api/v6/channels/0/messages.php [L,QSA]
+RewriteRule ^api/v8/channels/([0-9]+)/messages$ /api/v8/channels/0/messages.php [L,QSA]
+RewriteRule ^api/v9/channels/([0-9]+)/messages$ /api/v9/channels/0/messages.php [L,QSA]
+RewriteRule ^api/channels/([0-9]+)/typing$ /api/channels/0/typing.php [L,QSA]
+RewriteRule ^api/v6/channels/([0-9]+)/typing$ /api/v6/channels/0/typing.php [L,QSA]
+RewriteRule ^api/v8/channels/([0-9]+)/typing$ /api/v8/channels/0/typing.php [L,QSA]
+RewriteRule ^api/v9/channels/([0-9]+)/typing$ /api/v9/channels/0/typing.php [L,QSA]
+########
+
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-
 RewriteRule ^(.+)$ $1.php [L]

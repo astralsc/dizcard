@@ -12,7 +12,18 @@ This server is not ready for production because it is unfinished.
 ## Supported years
 
 ```
-2015, 2016, 2017, 2018, 2019, 2020, 2021
+- 2015 ❌
+- 2016 ❌
+- 2017 🟧 (only some of the newer 2017 akpks work)
+- 2018 ✅
+- 2019 ✅ 
+- 2020 🟧 (only the earliest 2020 apks work)
+- 2021 ❌
+- 2022 ❌
+- 2023 ❌
+- 2024 ❌
+- 2025 ❌
+- 2026 ❌
 ```
 
 ## Setup     

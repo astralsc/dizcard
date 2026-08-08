@@ -1,7 +1,9 @@
 {
+  "type": "module",
   "dependencies": {
     "fs": "^0.0.1-security",
     "https": "^1.0.0",
-    "ws": "^8.20.0"
+    "mysql2": "^3.23.2",
+    "ws": "^8.21.3"
   }
 }
