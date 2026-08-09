@@ -7,7 +7,8 @@ This server is not ready for production because it is unfinished.
 ## Requirements
 
 - Node.js
-- OpenSSL (Win64 OpenSSL Light)
+- Chocolatey
+- mkcert
 
 ## Supported years
 
@@ -31,5 +32,8 @@ This server is not ready for production because it is unfinished.
 1. Run **UwAmp Wamp Server** or **XAMPP**.
 2. Put all the repository files in the **www** folder.
 3. Run `npm install` inside the **wss-server** folder.
-4. Run `openssl req -x509 -newkey rsa:2048 -nodes -keyout key.pem -out cert.pem -days 365` inside the **wss-server** folder.
-5. Run `node .` inside the **wss-server** folder.
+4. Run `choco install mkcert` inside the **wss-server** folder with administrator permissions.
+5. Run `mkcert -install` inside the **wss-server** folder.
+6. Run `mkcert -cert-file cert.pem -key-file key.pem localhost 127.0.0.1 ::1` or `mkcert -cert-file cert.pem -key-file key.pem IP_HERE` inside the **wss-server** folder.
+7. Run `node .` inside the **wss-server** folder.
+8. Btw you need to update gateway.php if your not using localhost.
