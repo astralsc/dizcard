@@ -15,7 +15,7 @@ This server is not ready for production because it is unfinished.
 ```
 - 2015 ❌
 - 2016 ❌
-- 2017 🟧 (only some of the newer 2017 akpks work)
+- 2017 🟧 (only some of the newer 2017 apks work)
 - 2018 ✅
 - 2019 ✅ 
 - 2020 🟧 (only the earliest 2020 apks work)
